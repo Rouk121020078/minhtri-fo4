@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Shop Acc FO4 - Minh Trí</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('https://wallpapercave.com/wp/wp8460381.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: rgba(0,0,0,0.8);
+      padding: 12px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: yellow;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background: rgba(255,255,255,0.9);
+      color: black;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+      text-align: center;
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .price {
+      color: green;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      background: #007bff;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #0056b3;
+    }
+    footer {
+      text-align: center;
+      background: rgba(0,0,0,0.7);
+      color: white;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    footer a {
+      color: yellow;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Shop Acc FO4 - Minh Trí</h1>
+    <p>Uy tín - Nhanh chóng - Giá rẻ</p>
+  </header>
+
+  <nav>
+    <a href="#">Trang Chủ</a>
+    <a href="#acc">Danh Sách Acc</a>
+    <a href="#lienhe">Liên Hệ</a>
+  </nav>
+
+  <div class="container" id="acc">
+    <div class="card">
+      <img src="https://via.placeholder.com/250x150" alt="Acc 1">
+      <h3>Acc FO4 VIP</h3>
+      <p>Đội hình full ICON + nhiều BP</p>
+      <p class="price">1.000.000đ</p>
+      <a href="https://zalo.me/0123456789" class="btn">Mua ngay</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/250x150" alt="Acc 2">
+      <h3>Acc FO4 Trung Bình</h3>
+      <p>Đội hình mạnh, nhiều sao</p>
+      <p class="price">500.000đ</p>
+      <a href="https://zalo.me/0123456789" class="btn">Mua ngay</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/250x150" alt="Acc 3">
+      <h3>Acc FO4 Giá Rẻ</h3>
+      <p>Đội hình cơ bản, phù hợp tân thủ</p>
+      <p class="price">200.000đ</p>
+      <a href="https://zalo.me/0123456789" class="btn">Mua ngay</a>
+    </div>
+  </div>
+
+  <footer id="lienhe">
+    <h2>Liên hệ mua acc</h2>
+    <p>📞 Zalo: <a href="https://zalo.me/0123456789">0123456789</a></p>
+    <p>💳 Thanh toán qua Momo: 0123456789 (Minh Trí)</p>
+    <p>© 2025 Shop Acc FO4 Minh Trí</p>
+  </footer>
+
+</body>
+</html>
